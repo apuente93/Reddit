@@ -1,3 +1,18 @@
+///////////////////////////////////////////////////////////////////////////////
+// Main Class File:  Reddit.java
+// File:             Post.java
+// Author:           Alejandro Puente (apuente@wisc.edu)
+///////////////////////////////////////////////////////////////////////////////
+/**
+ * The Post class represents a single post that keeps track of the user who 
+ * posted it, the subreddit it was posted to, the type of the post 
+ * (of type PostType, also provided), the title of the post and the 
+ * karma (points) received by it. 
+ *
+ * <p>Bugs: None
+ *
+ * @author Alejandro Puente
+ */
 public class Post {
 	final private User user;
 	final private String subreddit;

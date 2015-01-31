@@ -1,6 +1,22 @@
+///////////////////////////////////////////////////////////////////////////////
+// Main Class File:  Reddit.java
+// File:             User.java
+// Author:           Alejandro Puente (apuente@wisc.edu)
+///////////////////////////////////////////////////////////////////////////////
 import java.util.List;
 import java.util.ArrayList;
-
+/**
+ * The User class represents the data associated with a single user. 
+ * The class will store the name of the user as a String, the karma 
+ * as an object of type Karma, a List<String> denoting the subreddits 
+ * the user is subscribed to and different List<String>s which store 
+ * information regarding which posts were posted, liked or disliked 
+ * by the user. 
+ *
+ * <p>Bugs: None
+ *
+ * @author Alejandro Puente
+ */
 public class User {
 	final private String name;
 	final private Karma karma;

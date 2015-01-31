@@ -1,6 +1,20 @@
+///////////////////////////////////////////////////////////////////////////////
+// Title:            Reddit
+// Files:            Reddit.java, RedditDB.java, Karma.java, Post.java, 
+//					 PostType.java, User.java
+// Author:           Alejandro Puente (apuente@wisc.edu)
+///////////////////////////////////////////////////////////////////////////////
 import java.util.*;
 import java.io.*;
-
+/**
+ * The application program, Reddit, creates and uses an RedditDB to represent 
+ * and process information. The user and post information is read from a text 
+ * files (explained above) and then the program processes user commands.
+ *
+ * <p>Bugs: None
+ *
+ * @author Alejandro Puente
+ */
 public class Reddit {
 	
 	public static void main (String[] args) {
